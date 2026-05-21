@@ -1,8 +1,9 @@
 # BOM — WPT Drone Wireless Charger
-# Based on: Srivastava et al. (IIT Ropar, 2025)
-# System: SS Topology | 100kHz | 7.4V 2S LiPo 2200mAh
+Based on: Srivastava et al. (IIT Ropar, 2025)
+System: SS Topology | 100kHz | 7.4V 2S LiPo 2200mAh
 
 ---
+We doing this as two parts. One where we build our own buck conventer and other where we use the buck IC -LM2596.
 
 ## COMMON COMPONENTS
 
@@ -66,10 +67,4 @@
 
 ---
 
-## COST SUMMARY
-
-| | Common ₹ | Buck ₹ | Total ₹ | With 10% buffer ₹ |
-|---|---|---|---|---|
-| **Option A — Scratch buck** | 2,415 | 355 | 2,770 | **~3,047** |
-| **Option B — LM2596 IC buck** | 2,415 | 190 | 2,605 | **~2,866** |
 
